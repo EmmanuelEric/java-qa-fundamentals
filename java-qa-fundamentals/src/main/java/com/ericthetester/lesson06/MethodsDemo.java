@@ -2,13 +2,13 @@ package com.ericthetester.lesson06;
 
 // calling a method
 public class MethodsDemo {
-    public static void sayHello() {
-        System.out.println("Hello Eric!");
-    }
+   // public static void sayHello() {
+       // System.out.println("Hello Eric!");
+   // }
 
-    public static void main(String[] args) {
-        sayHello();
-    }
+   // public static void main(String[] args) {
+  //      sayHello();
+  //  }
 
     // void. Use when method performs an action.
    // public static void printWelcome() {
@@ -85,4 +85,100 @@ public class MethodsDemo {
     //    printInvoice(500, 3);
     //
     //}
+
+    // Student grade calculator.
+//}
+//public class StudentGradeCalculator {
+
+    public static void main(String[] args) {
+
+        int[] scores = {85, 72, 90, 66, 78};
+
+        int total = calculateTotal(scores);
+
+        double average = calculateAverage(total, scores.length);
+
+        String grade = calculateGrade(average);
+
+        boolean passed = hasPassed(average);
+
+        int highest = findHighestScore(scores);
+
+        int lowest = findLowestScore(scores);
+
+        System.out.println("===== STUDENT RESULT =====");
+        System.out.println("Total: " + total);
+        System.out.println("Average: " + average);
+        System.out.println("Grade: " + grade);
+        System.out.println("Passed: " + passed);
+        System.out.println("Highest Score: " + highest);
+        System.out.println("Lowest Score: " + lowest);
+    }
+
+    public static int calculateTotal(int[] scores) {
+
+        int total = 0;
+
+        for (int score : scores) {
+            total += score;
+        }
+
+        return total;
+    }
+
+    public static double calculateAverage(int total, int numberOfSubjects) {
+
+        return (double) total / numberOfSubjects;
+    }
+
+    public static String calculateGrade(double average) {
+
+        if (average >= 70) {
+            return "A";
+        } else if (average >= 60) {
+            return "B";
+        } else if (average >= 50) {
+            return "C";
+        } else if (average >= 45) {
+            return "D";
+        } else if (average >= 40) {
+            return "E";
+        } else {
+            return "F";
+        }
+    }
+
+    public static boolean hasPassed(double average) {
+
+        return average >= 40;
+    }
+
+    public static int findHighestScore(int[] scores) {
+
+        int highest = scores[0];
+
+        for (int score : scores) {
+
+            if (score > highest) {
+                highest = score;
+            }
+        }
+
+        return highest;
+    }
+
+    public static int findLowestScore(int[] scores) {
+
+        int lowest = scores[0];
+
+        for (int score : scores) {
+
+            if (score < lowest) {
+                lowest = score;
+            }
+        }
+
+        return lowest;
+    }
 }
+
