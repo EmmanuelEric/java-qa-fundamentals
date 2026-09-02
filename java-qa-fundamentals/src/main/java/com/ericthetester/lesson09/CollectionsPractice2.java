@@ -104,5 +104,31 @@ public class CollectionsPractice2 {
         System.out.println("Role: " + userData.get("Role"));
         System.out.println("Location: " + userData.get("Location"));
         System.out.println("Status: " + userData.get("Status"));
+
+        /* Map + looping
+        user.get("Name");
+        user.get("Role");
+        user.get("Location");
+        We can loop through the entire map.
+        for (String key : user.keySet()) {
+        System.out.println(key + ": " + user.get(key));
+        }
+        output would be:
+        Name: Eric
+        Role: QA Automation Engineer
+        Location: Lagos
+        Status: Inactive
+
+        List<String> buttons = new ArrayList<>();
+
+        buttons.add("Login");
+        buttons.add("Register");
+        buttons.add("Forget Password");
+        To validate, you can code:
+        if (buttons.contains("Login")) {
+        system.out.println("Login button exists");
+        }
+
+        */
     }
 }
