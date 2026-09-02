@@ -74,4 +74,5 @@ public class CollectionsPractice {
 
     List<String> is an interface while
     ArrayList<String> is an implementation*/
+
 }
