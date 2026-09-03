@@ -1,4 +1,4 @@
-package com.ericthetester.lesson03;
+package com.ericthetester.lesson03.Operators;
 
 public class OperatorsDemo {
     public static void main(String[] args) {

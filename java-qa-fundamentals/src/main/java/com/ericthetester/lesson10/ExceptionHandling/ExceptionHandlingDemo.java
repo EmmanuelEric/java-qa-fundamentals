@@ -1,4 +1,4 @@
-package com.ericthetester.lesson10;
+package com.ericthetester.lesson10.ExceptionHandling;
 
 public class ExceptionHandlingDemo {
     /*public static void main1(String[] args) {

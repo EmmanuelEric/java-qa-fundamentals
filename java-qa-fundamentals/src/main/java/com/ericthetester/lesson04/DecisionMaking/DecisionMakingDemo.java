@@ -1,4 +1,4 @@
-package com.ericthetester.lesson04;
+package com.ericthetester.lesson04.DecisionMaking;
 
 public class DecisionMakingDemo {
     public static void main(String[] args) {

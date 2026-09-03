@@ -1,4 +1,4 @@
-package com.ericthetester.lesson02;
+package com.ericthetester.lesson02.DataTypes;
 
 public class DataTypesDemo {
     public static void main(String[] args) {

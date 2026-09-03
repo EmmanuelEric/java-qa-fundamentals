@@ -1,4 +1,4 @@
-package com.ericthetester.lesson01;
+package com.ericthetester.lesson01.Variables;
 
 public class VariablesDemo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.ericthetester.lesson09;
+package com.ericthetester.lesson09.Collections;
 // Test Data Manager
 import java.util.ArrayList;
 import java.util.HashMap;
