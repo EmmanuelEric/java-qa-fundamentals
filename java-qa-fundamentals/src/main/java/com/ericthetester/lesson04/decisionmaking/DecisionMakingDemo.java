@@ -1,4 +1,4 @@
-package com.ericthetester.lesson04.DecisionMaking;
+package com.ericthetester.lesson04.decisionmaking;
 
 public class DecisionMakingDemo {
     public static void main(String[] args) {
@@ -80,7 +80,7 @@ public class DecisionMakingDemo {
         int apiResponseCode = 200;
         double responseTime = 1.20;
 
-        if (responseCode == 200 && responseTime < 2.0) {
+        if (apiResponseCode == 200 && responseTime < 2.0) {
 
             System.out.println("API Test Passed");
 
