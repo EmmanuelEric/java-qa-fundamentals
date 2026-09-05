@@ -1,4 +1,4 @@
-package com.ericthetester.lesson09.Collections;
+package com.ericthetester.lesson09.collections;
 import java.util.ArrayList;
 
 public class CollectionsPractice {

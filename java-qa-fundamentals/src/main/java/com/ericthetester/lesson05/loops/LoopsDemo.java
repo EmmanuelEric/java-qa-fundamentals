@@ -1,4 +1,4 @@
-package com.ericthetester.lesson05.Loops;
+package com.ericthetester.lesson05.loops;
 
 public class LoopsDemo {
     public static void main(String[] args) {

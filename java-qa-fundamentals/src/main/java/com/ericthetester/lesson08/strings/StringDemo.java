@@ -1,4 +1,4 @@
-package com.ericthetester.lesson08.Strings;
+package com.ericthetester.lesson08.strings;
 
 import java.util.Arrays;
 

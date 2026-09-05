@@ -1,4 +1,4 @@
-package com.ericthetester.lesson06.Methods;
+package com.ericthetester.lesson06.methods;
 
 // calling a method
 public class MethodsDemo {

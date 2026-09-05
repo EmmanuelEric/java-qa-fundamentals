@@ -1,4 +1,4 @@
-package com.ericthetester.lesson10.ExceptionHandling;
+package com.ericthetester.lesson10.exceptionhandling;
 
 public class TestValidator {
 
