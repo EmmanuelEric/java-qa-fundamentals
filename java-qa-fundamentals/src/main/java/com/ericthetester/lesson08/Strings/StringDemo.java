@@ -1,4 +1,4 @@
-package com.ericthetester.lesson08.strings;
+package com.ericthetester.lesson08.Strings;
 
 import java.util.Arrays;
 
@@ -7,7 +7,7 @@ public class StringDemo {
         String name = "Eric";
         String role = "QA Automation Engineer";
         String company = "EIRIKR Technologies";
-        System.out.println(name + " - " + role + " - " + company);
+        System.out.println(name + " - " + role);
 
         // String length
         System.out.println(name.length());

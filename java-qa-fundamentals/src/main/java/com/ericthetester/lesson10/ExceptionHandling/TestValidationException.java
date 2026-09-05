@@ -1,4 +1,4 @@
-package com.ericthetester.lesson10.exceptionhandling;
+package com.ericthetester.lesson10.ExceptionHandling;
 
 public class TestValidationException extends Exception {
 

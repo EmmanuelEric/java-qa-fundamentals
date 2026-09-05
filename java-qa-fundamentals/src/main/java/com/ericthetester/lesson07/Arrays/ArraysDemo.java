@@ -1,4 +1,4 @@
-package com.ericthetester.lesson07.arrays;
+package com.ericthetester.lesson07.Arrays;
 
 import java.util.Arrays;
 

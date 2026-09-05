@@ -1,4 +1,4 @@
-package com.ericthetester.lesson09.collections;
+package com.ericthetester.lesson09.Collections;
 
 import java.util.ArrayList;
 
@@ -48,16 +48,7 @@ public class CollectionsDemo {
         // do not add a number because it is an integer and not a string.
 
         ArrayList<Integer> scores = new ArrayList<>();
-        scores.add(95);
-
         ArrayList<Double> prices = new ArrayList<>();
-        prices.add(19.99);
-
         ArrayList<Boolean> results = new ArrayList<>();
-        results.add(true);
-
-        System.out.println(scores);
-        System.out.println(prices);
-        System.out.println(results);
     }
 }
