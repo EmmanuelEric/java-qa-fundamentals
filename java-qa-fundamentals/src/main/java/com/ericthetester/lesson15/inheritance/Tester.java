@@ -1,7 +1,7 @@
-package com.ericthetester.lesson11.oop;
+package com.ericthetester.lesson15.inheritance;
 
 public class Tester extends User {
-// A child class  
+// A child class
     private String testingTool;
 
     public Tester(

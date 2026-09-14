@@ -1,8 +1,8 @@
-package com.ericthetester.lesson11.oop;
+package com.ericthetester.lesson15.inheritance;
 
 public class Admin extends User {
     private String accessLevel;
-// Another child class  
+// Another child class
     public Admin(
             String name,
             String email,
