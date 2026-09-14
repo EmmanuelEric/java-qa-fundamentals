@@ -1,4 +1,4 @@
-package com.ericthetester.lesson11.oop;
+package com.ericthetester.lesson13.constructors;
 
 /*
 public class UserDemo {
@@ -62,42 +62,3 @@ public class UserDemo {
         user3.displayUser();
     }
 }
-
-// Using the Encapsulated class.
-
-// public class UserDemo {
-
-//     public static void main(String[] args) {
-
-//         User user = new User(
-//                 "Eric",
-//                 "QA Automation Engineer",
-//                 "Lagos"
-//         );
-
-//         System.out.println(
-//                 "Name: " + user.getName()
-//         );
-
-//         System.out.println(
-//                 "Role: " + user.getRole()
-//         );
-
-//         System.out.println(
-//                 "Location: " + user.getLocation()
-//         );
-
-
-//         // Updating data
-
-//         user.setRole(
-//                 "Senior QA Automation Engineer"
-//         );
-
-//         System.out.println();
-
-//         System.out.println(
-//                 "Updated Role: " + user.getRole()
-//         );
-//     }
-// }
