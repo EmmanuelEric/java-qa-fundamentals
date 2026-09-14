@@ -1,4 +1,4 @@
-package com.ericthetester.lesson11.oop;
+package com.ericthetester.lesson14.encapsulation;
 
 public class TestResultDemo {
 

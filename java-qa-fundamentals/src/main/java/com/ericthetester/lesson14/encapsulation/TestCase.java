@@ -1,4 +1,11 @@
-package com.ericthetester.lesson11.oop;
+package com.ericthetester.lesson14.encapsulation;
+
+// Encapsulation is a fundamental concept in object-oriented programming (OOP) that refers to the bundling of data (attributes)
+// and methods (functions) that operate on that data into a single unit, typically a class. It restricts direct access to some of an object's components,
+// which can prevent the accidental modification of data. This is usually achieved by making class variables private and providing public getter and
+// setter methods to access and modify those variables.
+
+// Getters and setters are methods that allow you to access and modify the private variables of a class.
 
 public class TestCase {
      String testName;
@@ -132,4 +139,4 @@ public class TestCase {
 
 // for private boolean active;
 // isActive() - Getter method for the active variable
-// setActive(boolean active) - Setter method for the active variable 
+// setActive(boolean active) - Setter method for the active variable

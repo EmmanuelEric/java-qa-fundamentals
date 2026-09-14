@@ -1,4 +1,4 @@
-package com.ericthetester.lesson11.oop;
+package com.ericthetester.lesson14.encapsulation;
 
 public class TestCaseDemo {
     public static void main(String[] args) {
@@ -73,5 +73,5 @@ public class TestCaseDemo {
 //     }
 // }
 
-// with encapsulation, setters checks the value before allowing the change. 
+// with encapsulation, setters checks the value before allowing the change.
 // If the value is not valid, it will not change the value and will print an error message.
